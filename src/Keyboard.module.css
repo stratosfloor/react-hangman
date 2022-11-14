@@ -1,0 +1,33 @@
+.container {
+	align-self: stretch;
+}
+.keyboard {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+	gap: 0.35rem;
+}
+
+.btn {
+	background: none;
+	font-size: 2rem;
+	aspect-ratio: 1 / 1;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: black;
+	padding: 0.5rem;
+}
+
+.btn.active {
+	background-color: lightblue;
+}
+
+.btn.inactive {
+	opacity: 0.3;
+	cursor: auto;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+	background: lightblue;
+	border: 3px solid black;
+}

@@ -1,0 +1,93 @@
+.container {
+	position: relative;
+}
+
+.drawingBase {
+	height: 10px;
+	width: 250px;
+	background: black;
+}
+
+.drawingPole {
+	height: 400px;
+	width: 10px;
+	background: black;
+	margin-left: 120px;
+}
+
+.drawingTop {
+	height: 10px;
+	width: 250px;
+	background: black;
+	margin-left: 120px;
+}
+
+.drawingNoose {
+	height: 50px;
+	width: 10px;
+	background: black;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.head {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 10px solid black;
+	position: absolute;
+	top: 50px;
+	right: -30px;
+}
+.body {
+	width: 10px;
+	height: 100px;
+	background: black;
+	position: absolute;
+	top: 120px;
+	right: 0;
+}
+
+.leftarm {
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+	top: 150px;
+	right: -100px;
+	rotate: -30deg;
+	transform-origin: left bottom;
+}
+
+.rightarm {
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+	top: 150px;
+	right: 5px;
+	rotate: 30deg;
+	transform-origin: right top;
+}
+
+.rightleg {
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+	top: 210px;
+	right: -100px;
+	rotate: 60deg;
+	transform-origin: left top;
+}
+.leftleg {
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+	top: 210px;
+	right: -100px;
+	rotate: 120deg;
+	transform-origin: left top;
+}

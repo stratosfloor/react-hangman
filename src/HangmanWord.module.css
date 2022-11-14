@@ -1,0 +1,26 @@
+.guess {
+	display: flex;
+	gap: 0.25em;
+	font-size: 6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+
+.bottomLetter {
+	border-bottom: 0.1em solid black;
+}
+
+.letter {
+	visibility: hidden;
+}
+
+.correctLetter {
+	visibility: visible;
+	color: rgb(33, 187, 33);
+}
+
+.wrongLetter {
+	visibility: visible;
+	color: red;
+}
